@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (void)handleClickOnItemWithID:(NSString *)itemID;
+@property (weak, nonatomic) IBOutlet UILabel *titleLbl;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionLbl;
+
 
 @end
 

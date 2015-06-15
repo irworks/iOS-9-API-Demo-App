@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F422E7F61B2D8E46006A12BE /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422E7F51B2D8E46006A12BE /* CoreSpotlight.framework */; };
+		F422E7F81B2D9090006A12BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422E7F71B2D9090006A12BE /* MobileCoreServices.framework */; };
 		F4726F061B2D8D6400283E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4726F051B2D8D6400283E6E /* main.m */; };
 		F4726F091B2D8D6400283E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4726F081B2D8D6400283E6E /* AppDelegate.m */; };
 		F4726F0C1B2D8D6400283E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4726F0B1B2D8D6400283E6E /* ViewController.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F422E7F51B2D8E46006A12BE /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		F422E7F71B2D9090006A12BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F4726F011B2D8D6400283E6E /* SearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4726F051B2D8D6400283E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4726F071B2D8D6400283E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F422E7F81B2D9090006A12BE /* MobileCoreServices.framework in Frameworks */,
+				F422E7F61B2D8E46006A12BE /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 		F4726EF81B2D8D6400283E6E = {
 			isa = PBXGroup;
 			children = (
+				F422E7F71B2D9090006A12BE /* MobileCoreServices.framework */,
+				F422E7F51B2D8E46006A12BE /* CoreSpotlight.framework */,
 				F4726F031B2D8D6400283E6E /* SearchDemo */,
 				F4726F1D1B2D8D6400283E6E /* SearchDemoTests */,
 				F4726F281B2D8D6400283E6E /* SearchDemoUITests */,
@@ -496,6 +504,7 @@
 				F4726F301B2D8D6400283E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4726F311B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				F4726F331B2D8D6400283E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4726F341B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				F4726F361B2D8D6400283E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
