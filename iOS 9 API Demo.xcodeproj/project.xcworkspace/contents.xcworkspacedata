@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SearchDemo.xcodeproj">
+      location = "self:/Users/irworks/Documents/Coding/iOS 9/SearchDemo/iOS 9 API Demo.xcodeproj">
    </FileRef>
 </Workspace>

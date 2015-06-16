@@ -15,23 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4726F001B2D8D6400283E6E"
-               BuildableName = "SearchDemo.app"
-               BlueprintName = "SearchDemo"
-               ReferencedContainer = "container:SearchDemo.xcodeproj">
+               BuildableName = "iOS 9 API Demo.app"
+               BlueprintName = "iOS 9 API Demo"
+               ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4726F241B2D8D6400283E6E"
-               BuildableName = "SearchDemoUITests.xctest"
-               BlueprintName = "SearchDemoUITests"
-               ReferencedContainer = "container:SearchDemo.xcodeproj">
+               BuildableName = "iOS 9 API Demo.xctest"
+               BlueprintName = "iOS 9 API DemoUITests"
+               ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4726F191B2D8D6400283E6E"
-               BuildableName = "SearchDemoTests.xctest"
-               BlueprintName = "SearchDemoTests"
-               ReferencedContainer = "container:SearchDemo.xcodeproj">
+               BuildableName = "iOS 9 API Demo.xctest"
+               BlueprintName = "iOS 9 API DemoTests"
+               ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -57,19 +57,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4726F241B2D8D6400283E6E"
-               BuildableName = "SearchDemoUITests.xctest"
-               BlueprintName = "SearchDemoUITests"
-               ReferencedContainer = "container:SearchDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F43A52A41B2F3F6F0070C806"
-               BuildableName = "SearchDemoUITests2.xctest"
-               BlueprintName = "SearchDemoUITests2"
-               ReferencedContainer = "container:SearchDemo.xcodeproj">
+               BuildableName = "iOS 9 API Demo.xctest"
+               BlueprintName = "iOS 9 API DemoUITests"
+               ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -77,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4726F001B2D8D6400283E6E"
-            BuildableName = "SearchDemo.app"
-            BlueprintName = "SearchDemo"
-            ReferencedContainer = "container:SearchDemo.xcodeproj">
+            BuildableName = "iOS 9 API Demo.app"
+            BlueprintName = "iOS 9 API Demo"
+            ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -100,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4726F001B2D8D6400283E6E"
-            BuildableName = "SearchDemo.app"
-            BlueprintName = "SearchDemo"
-            ReferencedContainer = "container:SearchDemo.xcodeproj">
+            BuildableName = "iOS 9 API Demo.app"
+            BlueprintName = "iOS 9 API Demo"
+            ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -119,9 +109,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4726F001B2D8D6400283E6E"
-            BuildableName = "SearchDemo.app"
-            BlueprintName = "SearchDemo"
-            ReferencedContainer = "container:SearchDemo.xcodeproj">
+            BuildableName = "iOS 9 API Demo.app"
+            BlueprintName = "iOS 9 API Demo"
+            ReferencedContainer = "container:iOS 9 API Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

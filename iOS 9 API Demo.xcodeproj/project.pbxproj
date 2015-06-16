@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F422E7F51B2D8E46006A12BE /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 		F422E7F71B2D9090006A12BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		F4726F011B2D8D6400283E6E /* SearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4726F011B2D8D6400283E6E /* iOS 9 API Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 9 API Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4726F051B2D8D6400283E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4726F071B2D8D6400283E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4726F081B2D8D6400283E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,10 +49,10 @@
 		F4726F101B2D8D6400283E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4726F131B2D8D6400283E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4726F151B2D8D6400283E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4726F1A1B2D8D6400283E6E /* SearchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4726F1A1B2D8D6400283E6E /* iOS 9 API Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 9 API Demo.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4726F1E1B2D8D6400283E6E /* SearchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchDemoTests.m; sourceTree = "<group>"; };
 		F4726F201B2D8D6400283E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4726F251B2D8D6400283E6E /* SearchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4726F251B2D8D6400283E6E /* iOS 9 API Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 9 API Demo.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4726F291B2D8D6400283E6E /* SearchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchDemoUITests.m; sourceTree = "<group>"; };
 		F4726F2B1B2D8D6400283E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,9 +99,9 @@
 		F4726F021B2D8D6400283E6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4726F011B2D8D6400283E6E /* SearchDemo.app */,
-				F4726F1A1B2D8D6400283E6E /* SearchDemoTests.xctest */,
-				F4726F251B2D8D6400283E6E /* SearchDemoUITests.xctest */,
+				F4726F011B2D8D6400283E6E /* iOS 9 API Demo.app */,
+				F4726F1A1B2D8D6400283E6E /* iOS 9 API Demo.xctest */,
+				F4726F251B2D8D6400283E6E /* iOS 9 API Demo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4726F001B2D8D6400283E6E /* SearchDemo */ = {
+		F4726F001B2D8D6400283E6E /* iOS 9 API Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4726F2E1B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemo" */;
+			buildConfigurationList = F4726F2E1B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API Demo" */;
 			buildPhases = (
 				F4726EFD1B2D8D6400283E6E /* Sources */,
 				F4726EFE1B2D8D6400283E6E /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = SearchDemo;
+			name = "iOS 9 API Demo";
 			productName = SearchDemo;
-			productReference = F4726F011B2D8D6400283E6E /* SearchDemo.app */;
+			productReference = F4726F011B2D8D6400283E6E /* iOS 9 API Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4726F191B2D8D6400283E6E /* SearchDemoTests */ = {
+		F4726F191B2D8D6400283E6E /* iOS 9 API DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4726F311B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoTests" */;
+			buildConfigurationList = F4726F311B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API DemoTests" */;
 			buildPhases = (
 				F4726F161B2D8D6400283E6E /* Sources */,
 				F4726F171B2D8D6400283E6E /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				F4726F1C1B2D8D6400283E6E /* PBXTargetDependency */,
 			);
-			name = SearchDemoTests;
+			name = "iOS 9 API DemoTests";
 			productName = SearchDemoTests;
-			productReference = F4726F1A1B2D8D6400283E6E /* SearchDemoTests.xctest */;
+			productReference = F4726F1A1B2D8D6400283E6E /* iOS 9 API Demo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4726F241B2D8D6400283E6E /* SearchDemoUITests */ = {
+		F4726F241B2D8D6400283E6E /* iOS 9 API DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4726F341B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoUITests" */;
+			buildConfigurationList = F4726F341B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API DemoUITests" */;
 			buildPhases = (
 				F4726F211B2D8D6400283E6E /* Sources */,
 				F4726F221B2D8D6400283E6E /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				F4726F271B2D8D6400283E6E /* PBXTargetDependency */,
 			);
-			name = SearchDemoUITests;
+			name = "iOS 9 API DemoUITests";
 			productName = SearchDemoUITests;
-			productReference = F4726F251B2D8D6400283E6E /* SearchDemoUITests.xctest */;
+			productReference = F4726F251B2D8D6400283E6E /* iOS 9 API Demo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4726EFC1B2D8D6400283E6E /* Build configuration list for PBXProject "SearchDemo" */;
+			buildConfigurationList = F4726EFC1B2D8D6400283E6E /* Build configuration list for PBXProject "iOS 9 API Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4726F001B2D8D6400283E6E /* SearchDemo */,
-				F4726F191B2D8D6400283E6E /* SearchDemoTests */,
-				F4726F241B2D8D6400283E6E /* SearchDemoUITests */,
+				F4726F001B2D8D6400283E6E /* iOS 9 API Demo */,
+				F4726F191B2D8D6400283E6E /* iOS 9 API DemoTests */,
+				F4726F241B2D8D6400283E6E /* iOS 9 API DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		F4726F1C1B2D8D6400283E6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4726F001B2D8D6400283E6E /* SearchDemo */;
+			target = F4726F001B2D8D6400283E6E /* iOS 9 API Demo */;
 			targetProxy = F4726F1B1B2D8D6400283E6E /* PBXContainerItemProxy */;
 		};
 		F4726F271B2D8D6400283E6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4726F001B2D8D6400283E6E /* SearchDemo */;
+			target = F4726F001B2D8D6400283E6E /* iOS 9 API Demo */;
 			targetProxy = F4726F261B2D8D6400283E6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +422,7 @@
 				INFOPLIST_FILE = SearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS 9 API Demo";
 			};
 			name = Debug;
 		};
@@ -433,7 +433,7 @@
 				INFOPLIST_FILE = SearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS 9 API Demo";
 			};
 			name = Release;
 		};
@@ -444,8 +444,8 @@
 				INFOPLIST_FILE = SearchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchDemo.app/SearchDemo";
+				PRODUCT_NAME = "iOS 9 API Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 9 API Demo.app/iOS 9 API Demo";
 			};
 			name = Debug;
 		};
@@ -456,8 +456,8 @@
 				INFOPLIST_FILE = SearchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchDemo.app/SearchDemo";
+				PRODUCT_NAME = "iOS 9 API Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 9 API Demo.app/iOS 9 API Demo";
 			};
 			name = Release;
 		};
@@ -467,7 +467,7 @@
 				INFOPLIST_FILE = SearchDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS 9 API Demo";
 				TEST_TARGET_NAME = SearchDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -479,7 +479,7 @@
 				INFOPLIST_FILE = SearchDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.irworks.SearchDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS 9 API Demo";
 				TEST_TARGET_NAME = SearchDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -488,7 +488,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4726EFC1B2D8D6400283E6E /* Build configuration list for PBXProject "SearchDemo" */ = {
+		F4726EFC1B2D8D6400283E6E /* Build configuration list for PBXProject "iOS 9 API Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4726F2C1B2D8D6400283E6E /* Debug */,
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4726F2E1B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemo" */ = {
+		F4726F2E1B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4726F2F1B2D8D6400283E6E /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4726F311B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoTests" */ = {
+		F4726F311B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4726F321B2D8D6400283E6E /* Debug */,
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4726F341B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "SearchDemoUITests" */ = {
+		F4726F341B2D8D6400283E6E /* Build configuration list for PBXNativeTarget "iOS 9 API DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4726F351B2D8D6400283E6E /* Debug */,
