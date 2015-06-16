@@ -11,8 +11,13 @@
 @interface ViewController : UIViewController
 
 - (void)handleClickOnItemWithID:(NSString *)itemID;
+- (void)handleNotificationResultWithText:(NSString *)result;
+
 @property (weak, nonatomic) IBOutlet UILabel *titleLbl;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionLbl;
+@property (weak, nonatomic) IBOutlet UILabel *notificationResultLbl;
+@property (weak, nonatomic) IBOutlet UITextField *notificationText;
+- (IBAction)sendNotification:(id)sender;
 
 
 @end

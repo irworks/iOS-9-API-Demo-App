@@ -58,4 +58,27 @@
     return YES;
 }
 
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(nonnull UILocalNotification *)notification withResponseInfo:(nonnull NSDictionary *)responseInfo completionHandler:(nonnull void (^)())completionHandler {
+    
+    NSString *result = @"";
+    
+    if ([identifier isEqualToString:@"ACTION_ONE"]) {
+        
+       result = @"You clicked the \"Like\" Button last time.";
+    }
+    else if ([identifier isEqualToString:@"ACTION_TWO"]) {
+        
+        result = [NSString stringWithFormat:@"You typed: %@", [responseInfo objectForKey:UIUserNotificationActionResponseTypedTextKey]];
+        
+    }
+    if (completionHandler) {
+        
+        completionHandler();
+    }
+    
+    ViewController *rootViewController = (ViewController*)self.window.rootViewController;
+    [rootViewController handleNotificationResultWithText:result];
+    
+}
+
 @end
